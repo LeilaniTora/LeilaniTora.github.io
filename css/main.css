@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Madimi+One&family=Rubik+Doodle+Shadow&display=swap');
+
+body {
+    font-family: "Madimi One";
+    text-align: center; /* Center-align all content within the body */
+    background-color: #a9726c;
+    color: #DCD0C0;
+  }
+
+  #wrapper {
+    text-align: center;
+    background-color: #4E4E56;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 3px solid #B1938B;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  h1 {
+    color: #DA635D; /* change title color */
+    margin-top: 0; /* Remove default margin from the top */
+  }
+  
+  h2 {
+    color: #B1938B;
+    border-bottom: 3px dashed #B1938B;
+    margin: auto;
+    display: block;
+  }
+  
+  .info h2 {
+    width: 60px;
+  }
+
+  .news h2 {
+    width: 80px;
+  }
+
+  .server-info h2 {
+    width: 130px;
+  }
+
+  .getting-started h2 {
+    width: 185px;
+  }
+
+  .congratulations h2 {
+    width: 185px;
+  }
+
+  .events h2 {
+    width: 100px;
+  }
+
+  .stories h2 {
+    width: 100px;
+  }
+
+  .rumors h2 {
+    width: 100px;
+  }
+
+  .skills h2 {
+    width: 80px;
+  }
+  
+  header nav {
+    display: inline-block; /* Make the nav element behave like an inline-block */
+  }
+  
+  header nav ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  header nav ul li {
+    display: inline-block; /* Display items horizontally */
+    margin-right: 10px; /* Add some space between items */
+  }
+  
+  a:link {
+    color: black; /* Change link color */
+  }
+
+  a:hover {
+    color: #DCD0C0; /* Change hover color */
+  }
+
+  a:visited {
+    color: #aa3b35; /* Change link color if visited */
+  }
+
+  ol {
+    list-style-type: none;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  hr {
+    border-color: #B1938B;
+    border-bottom: 2px solid #B1938B;
+  }
+
+  b {
+    color: #DA635D;
+  }
+
+  footer {
+    padding: 10px; /* Add spacing from the line (spacing on all sides) */
+  }
